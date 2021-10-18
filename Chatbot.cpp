@@ -1,9 +1,9 @@
-#include<iostream>
-#include<cstring>
+#include<iostream.h>
+#include<cstring.h>
 #include<conio.h>
-#include<cstdio>
+#include<cstdio.h>
 using namespace std;
-int main()
+void main()
 {
    system("cls");
    int ans,num1,num2,pass;
@@ -49,7 +49,7 @@ int main()
                     cout<<"OK USER"<<endl;
                     system("pause");
                     }
-	                else if((!find_word (str,search1))||(!find_word (str,search2)))
+	                else if((!find_word (str,search1))or(!find_word (str,search2)))
                     {
                     cout<<"PLEASE ENTER THE NUMBERS AGAIN\n";
                     cin>>num1>>num2;
@@ -63,7 +63,7 @@ int main()
                     cout<<"ON SUBSTRACING THE FIRST FROM THE SECOND WE GET "<<num1-num2;
                     goto here;
                     }
-	                else if((!find_word (str,search4))||(!find_word (str,search5)))
+	                else if((!find_word (str,search4))or(!find_word (str,search5)))
                     {
                     cout<<"PLEASE ENTER THE NUMBERS AGAIN\n";
                     cin>>num1>>num2;
@@ -85,14 +85,14 @@ int main()
                     goto here;
                     }
                     }
-	                else if((!find_word (str,search7))||(!find_word (str,search8)))
+	                else if((!find_word (str,search7))or(!find_word (str,search8)))
                     {
                     cout<<"PLEASE ENTER THE NUMBERS AGAIN\n";
                     cin>>num1>>num2;
                     cout<<"THE REMAINDER OF THE FIRST NUMBER WITH RESPECT TO THE SECOND NUMBER IS  "<<num1%num2;
                     goto here;
                     }
-	                else if((!find_word (str,"bye"))||(!find_word (str,"exit")))
+	                else if((!find_word (str,"bye"))or(!find_word (str,"exit")))
                     {
                     return 0;
                     }
@@ -113,7 +113,7 @@ int main()
                    system("pause");
                    }
    }
-   return 0;
+   getch();
 }
 
 
