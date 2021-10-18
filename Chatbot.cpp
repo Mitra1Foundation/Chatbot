@@ -7,7 +7,7 @@ void main()
 {
    system("cls");
    int ans,num1,num2,pass;
-   char str[510],search1[10]="add",search2[10]="sum",search3[10]="substract",search4      [10]="multiply",search5[10]="product",search6[10]="divide", search7[10]="remainder",       search8[10]="modulus"; //user input
+   char str[510],search1[10]="add",search2[10]="sum",search3[10]="substract",search4[10]="multiply",search5[10]="product",search6[10]="divide";
    //user input
    int find_word(char string[80],char search_word[10]);
    cout<<"WELCOME BACK ANKUR\nPLEASE TURN OFF CAPS LOCK WHILE USING ME\nAND ALWAYS USE UNDERSCORES(_) INSTEAD OF SPACES\n";
@@ -84,17 +84,6 @@ void main()
                     cout<<"ON DIVIDING THE FIRST NUMBER FROM THE SECOND WE GET "<<num1/num2;
                     goto here;
                     }
-                    }
-	                else if((!find_word (str,search7))or(!find_word (str,search8)))
-                    {
-                    cout<<"PLEASE ENTER THE NUMBERS AGAIN\n";
-                    cin>>num1>>num2;
-                    cout<<"THE REMAINDER OF THE FIRST NUMBER WITH RESPECT TO THE SECOND NUMBER IS  "<<num1%num2;
-                    goto here;
-                    }
-	                else if((!find_word (str,"bye"))or(!find_word (str,"exit")))
-                    {
-                    return 0;
                     }
                     else
                     {
